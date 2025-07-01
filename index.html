@@ -1,32 +1,51 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Desafio Modo Caverna</title>
+    <title>Desafio Modo Caverna: 30 Dias para Se Reconectar</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="icon" type="img/Logo.jpeg" href="favicon.ico.jpeg">
-    <h1><b>30 dias para se reconectar com você mesmo(a)</b></h1>
+    <link rel="icon" type="image/jpeg" href="img/Logo.jpeg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cousine&family=Inter:wght@300;400;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <nav>
-        <ul>
-            <li><a href="index.html">Pagina Inicial</a></li>
-            <li><a href="regras.html">Regras</a></li>
-            <li><a href="beneficios.html">Beneficios</a></li>
-            <li><a href="diario.html">Diario</a></li>
-            <li><a href="fim.html">Fim</a></li>
-            <li><a href="login.html">Login</a></li>
-        </ul>
-    </nav>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Página Inicial</a></li>
+                <li><a href="regras.html">Regras</a></li>
+                <li><a href="beneficios.html">Benefícios</a></li>
+                <li><a href="diario.html">Diário</a></li>
+                <li><a href="fim.html">Fim do Desafio</a></li>
+                <li><a href="login.html">Junte-se</a></li>
+            </ul>
+        </nav>
+    </header>
 
-    <div>
-    <img src="img/caverna.jpeg" alt="caverna"/>
-    <p><strong>O Modo Caverna é um desafio de isolamento digital e disciplina pessoal.<br> Durante 30 dias, você reduz distrações externas e foca em você, nos seus objetivos, hábitos saudáveis e propósito.</strong></p>
-    <a href="https://www.folhadelondrina.com.br/folha-mais/conheca-o-modo-caverna-metodo-que-viralizou-nas-redes-sociais-3262067e.html?d=1" alt="Caverna">Saiba Mais="O que e o modo caverna"</a></div>
-    
-    <div id="comeco">
-        <p>Começar -> <a href="regras.html">Regras</a></p>
-    </div>
+    <main class="container">
+        <section class="hero-section">
+            <h1 class="vinheta-text">Você está entrando no Modo Caverna...</h1>
+            
+            <div class="npc-container">
+                <img id="npc-sombra" src="img/npc-index.png" alt="NPC Sombra encapuzada" class="npc-image">
+                <p class="npc-dialogue">"Você ainda não sabe quem é. Mas vai descobrir aqui dentro."</p>
+            </div>
+
+            <img src="img/caverna.jpeg" alt="Imagem de uma caverna escura com um feixe de luz ao fundo, representando o isolamento e a busca interna." class="img-content"/>
+            <p><strong>O Modo Caverna é um desafio de isolamento digital e disciplina pessoal. Durante 30 dias, você reduz distrações externas e foca em você, nos seus objetivos, hábitos saudáveis e propósito.</strong></p>
+            <a href="https://www.folhadelondrina.com.br/folha-mais/conheca-o-modo-caverna-metodo-que-viralizou-nas-redes-sociais-3262067e.html?d=1" target="_blank" rel="noopener noreferrer" class="link-externo">Saiba Mais sobre o Modo Caverna (Fonte Externa)</a>
+            
+            <div class="cta-section">
+                <button onclick="location.href='regras.html'">Aceitar o Desafio</button>
+            </div>
+        </section>
+
+        </main>
+
+    <footer>
+        <p>&copy; 2025 Desafio Modo Caverna. Todos os direitos reservados.</p>
+    </footer>
 </body>
 </html>

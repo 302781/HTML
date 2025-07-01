@@ -1,27 +1,79 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Desafio Modo Caverna</title>
-    <h1>30 dias para se reconectar com você mesmo(a)</h1>
+    <title>Parabéns! O Fim do Desafio Modo Caverna</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/jpeg" href="img/Logo.jpeg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cousine&family=Inter:wght@300;400;700&display=swap" rel="stylesheet">
 </head>
-<body>
-    <nav>
-        <ul>
-            <li><a href="index.html">Pagina Inicial</a></li>
-            <li><a href="regras.html">Regras</a></li>
-            <li><a href="beneficios.html">Beneficios</a></li>
-            <li><a href="diario.html">Diario</a></li>
-            <li><a href="fim.html">Fim</a></li>
-        </ul>
-    </nav>
-    <div id="fim">
-        <H1>Parabens</H1>
-        <p>Você chegou ao fim do Desafio Modo Caverna. Agora você conhece melhor a si mesma, tem mais disciplina e clareza sobre seus objetivos.</p>
-        <img src="img/luz.jpeg" alt="Luz no fim do tunel">
-        <p>Você saiu da caverna diferente de como entrou. E isso é evolução.</p>
-    </div>
-    
+<body class="body-fim"> <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Página Inicial</a></li>
+                <li><a href="regras.html">Regras</a></li>
+                <li><a href="beneficios.html">Benefícios</a></li>
+                <li><a href="diario.html">Diário</a></li>
+                <li><a href="fim.html">Fim do Desafio</a></li>
+                <li><a href="login.html">Junte-se</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container container-fim"> <section id="congratulations">
+            <h1><span class="mensagem-luz">Você venceu a si mesma.</span></h1>
+            <p><strong>Que jornada incrível!</strong> Depois de 30 dias de foco, disciplina e autodescoberta, você chegou ao fim do Desafio Modo Caverna. Celebre cada momento, cada superação e cada aprendizado. Você mostrou uma força e dedicação admiráveis.</p>
+
+            <div class="npc-container">
+                <img src="img/npc-fim.png" alt="NPC Sombra sem capuz, com rosto revelado e iluminada, simbolizando superação" class="npc-image">
+                <p class="npc-dialogue">"A caverna não foi prisão. Foi nascimento."</p>
+            </div>
+
+            <img src="img/luz.jpeg" alt="Um feixe de luz brilhante vindo da entrada de uma caverna escura, simbolizando a saída e a nova perspectiva após o desafio." class="img-content"/>
+
+            <p>Durante este período, você se reconectou consigo mesmo(a), eliminou distrações, fortaleceu sua disciplina e ganhou uma **clareza inestimável** sobre seus objetivos e prioridades. Não é apenas o fim de um desafio, mas o início de uma nova forma de viver.</p>
+        </section>
+
+        <section id="certificado-area">
+            <h2>Seu Certificado de Conclusão</h2>
+            <div class="certificado">
+                <p class="certificado-titulo">CERTIFICADO DE CONCLUSÃO</p>
+                <p>Este certificado atesta que</p>
+                <p class="nome-participante"><span id="username">__________________</span></p>
+                <p>completou com sucesso o</p>
+                <p class="desafio-nome">DESAFIO MODO CAVERNA</p>
+                <p class="data-conclusao">em <span id="data-conclusao">01 de Julho de 2025</span></p> <p class="assinatura">Sua Mente, Seu Reino.</p>
+            </div>
+            <p class="nota-certificado">Futuramente, você poderá preencher e gerar este certificado com seu nome!</p>
+        </section>
+
+        <section id="proximos-passos">
+            <h2>E Agora? O Que Vem Depois da Caverna?</h2>
+            <p>A transformação não para aqui! Use as ferramentas e a mentalidade que você cultivou para:</p>
+            <ul>
+                <li><strong>Manter os Hábitos Positivos:</strong> Integre permanentemente a leitura, meditação, rotina e foco em sua vida diária.</li>
+                <li><strong>Continuar o Autoconhecimento:</strong> O diário pode continuar sendo seu companheiro. A reflexão constante é chave para o crescimento.</li>
+                <li><strong>Definir Novas Metas:</strong> Com sua nova clareza, estabeleça objetivos ainda mais ambiciosos e planeje como alcançá-los.</li>
+                <li><strong>Inspirar Outros:</strong> Compartilhe sua experiência e motive amigos e familiares a embarcarem em suas próprias jornadas de autodescoberta.</li>
+            </ul>
+        </section>
+
+        <div class="quote-final npc-box">
+            <p>"Agora você sabe quem é. E o mundo vai descobrir também."</p>
+        </div>
+
+        <section class="cta-section">
+            <p>Revise sua jornada ou inspire-se para um novo ciclo!</p>
+            <button onclick="location.href='diario.html'">Revisitar Meu Diário</button>
+            <button onclick="location.href='index.html'">Começar Um Novo Ciclo</button>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Desafio Modo Caverna. Todos os direitos reservados.</p>
+    </footer>
 </body>
 </html>
